@@ -5,7 +5,7 @@ const InputForm = ({ task, settask, title, settitle }) => {
     e.preventDefault();
     if (title !== "") {
       settask([...task, { title }]);
-      settitle("");
+      settitle("");//damn
     }
   };
   return (
