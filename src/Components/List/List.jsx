@@ -16,7 +16,7 @@ const List = ({ task, settask }) => {
     <>
       {task.map((item, index) => {
         return (
-          <Card className="md:mt-4">
+          <Card className="md:mt-4 mt-4">
             <CardBody>
               <div className="flex justify-between ">
                 <div className="flex">
