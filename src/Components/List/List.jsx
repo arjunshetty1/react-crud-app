@@ -1,6 +1,6 @@
 import { Card, CardBody, Button } from "@nextui-org/react";
 import { useState } from "react";
-import { AiOutlineDelete, AiOutlineEdit } from "react-icons/ai";
+import { AiOutlineDelete } from "react-icons/ai";
 
 const List = ({ task, settask }) => {
   const [edit, setedit] = useState(false);
@@ -41,7 +41,7 @@ const List = ({ task, settask }) => {
                   >
                     <AiOutlineDelete />
                   </Button>
-
+                  {/* 
                   <Button
                     isIconOnly
                     className="bg-[black] text-white "
@@ -49,7 +49,7 @@ const List = ({ task, settask }) => {
                     onClick={editHandler}
                   >
                     <AiOutlineEdit />
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </CardBody>
