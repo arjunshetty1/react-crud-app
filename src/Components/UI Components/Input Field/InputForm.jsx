@@ -21,6 +21,7 @@ const InputForm = ({ task, settask, title, settitle }) => {
                 <Input
                   type="text"
                   variant={variant}
+                  value={title}
                   label="Add Task Here"
                   onChange={(e) => settitle(e.target.value)}
                   required
