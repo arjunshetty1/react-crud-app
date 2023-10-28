@@ -18,7 +18,7 @@ ToDo App is a simple task management application built using React. It allows us
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/arjunshetty1/React-Todo-App/tree/feat-edit
+   git clone https://github.com/arjunshetty1/React-Todo-App
    ```
 
 2. **Install dependencies:**
