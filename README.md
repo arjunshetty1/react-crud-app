@@ -28,9 +28,9 @@ ToDo App is a simple task management application built using React. It allows us
 
 3. **Run the app:**
    ```
-   npm start
+   npm run dev
    ```
-   The app will be available at `http://localhost:3000`.
+   The app will be available at `http://localhost:5173`.
 
 ## Usage
 
