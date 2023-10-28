@@ -1,4 +1,5 @@
 import { Input, Button } from "@nextui-org/react";
+
 const InputForm = ({ task, settask, title, settitle }) => {
   const variants = ["bordered"];
   const handlesubmit = (e) => {

@@ -1,8 +1,9 @@
 import { NextUIProvider } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
 import InputForm from "./Components/UI Components/Input Field/InputForm";
-import { useState } from "react";
 import List from "./Components/List/List";
+import { useState } from "react";
+
 const App = () => {
   const [title, settitle] = useState("");
   const [task, settask] = useState([]);
@@ -10,6 +11,7 @@ const App = () => {
   const clearAll = () => {
     settask([]);
   };
+
   return (
     <NextUIProvider>
       <>
@@ -25,7 +27,12 @@ const App = () => {
                 title={title}
                 settitle={settitle}
               />
-              <List task={task} settask={settask} title={title} />
+              <List
+                task={task}
+                settask={settask}
+                title={title}
+                settitle={settitle}
+              />
               <p className="flex justify-center mt-5 font-medium">
                 You Have {task.length} Todos
                 {task.length > 0 ? (
