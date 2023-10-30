@@ -9,6 +9,7 @@ const List = ({ task, settask }) => {
   return (
     <>
       {task.map((item, index) => {
+        // damn
         return (
           <Card className="md:mt-4 mt-4">
             <CardBody>

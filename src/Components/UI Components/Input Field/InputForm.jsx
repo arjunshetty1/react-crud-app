@@ -24,7 +24,7 @@ const InputForm = ({ task, settask, title, settitle }) => {
                   variant={variant}
                   value={title}
                   label="Add Task Here"
-                  onChange={(e) => settitle(e.target.value)}
+                  onChange={(t) => settitle(t.target.value)}
                   required
                 />
               </div>
